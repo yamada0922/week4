@@ -1,4 +1,94 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer {
+  background-color: #AA0601;
+}
+.side-about {
+  gap: 48px;
+}
+.side-about a {
+  color: white;
+}
+.side-social {
+  gap: 32px;
+}
+.side-social img {
+  width: 48px;
+}
+.nav-about {
+  justify-content: space-between;
+  align-items: center;
+}
+.tel-mail h3 {
+  font-size: 36px;
+  color: white;
+}
+.mail, .tel{
+  align-items: center;
+}
+.privacy p {
+  color: white;
+}
+.privacy  {
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.policy {
+  gap: 48px;
+}
+.policy p {
+  font-size: 14px;
+}
+.footer-content {
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+.nav-about {
+  margin-bottom: 36px;
+}
+.tel-mail {
+  margin-bottom: 32px;
+}
+.tel {
+  margin-bottom: 8px;
+}
+@media (max-width: 576px) {
+  .footer-content {
+      padding-left: 13px;
+      padding-right: 13px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+  }
+  .nav-about {
+      margin-bottom: -36px;
+  }
+  .side-about {
+      display: none;
+  }
+  .tel-mail {
+      margin-bottom: 24px;
+  }
+  .tel-mail h3 {
+      font-size: 16px;
+  }
+  .side-social {
+      gap: 8px;
+      width: 100%;
+      justify-content: flex-end;
+  }
+  .side-social img {
+      width: 24px;
+  }
+  .privacy {
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 16px;
+      margin-bottom: 24px;
+  }
+  .policy {
+      flex-direction: column;
+      gap: 8px;
+  }
+  .policy p {
+      font-size: 16px;
+    }
 }
